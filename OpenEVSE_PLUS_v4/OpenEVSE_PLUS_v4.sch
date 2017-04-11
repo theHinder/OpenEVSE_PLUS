@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -36313,8 +36313,8 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="IC2" library="atmel" deviceset="MEGA8" device="-AI"/>
-<part name="IC4" library="SparkFun" deviceset="LMV358" device=""/>
+<part name="IC2" library="atmel" deviceset="MEGA8" device="-AI" value="ATMEGA328P-AU"/>
+<part name="IC4" library="SparkFun" deviceset="LMV358" device="" value="LF353"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="C12" library="SparkFun" deviceset="CAP" device="0805" value=".1uf"/>
@@ -36334,7 +36334,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0805" value="1uf"/>
 <part name="R12" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="2.4k"/>
 <part name="R13" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="2.4k"/>
-<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="650"/>
+<part name="R1" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="620"/>
 <part name="R5" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="56k"/>
 <part name="R6" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="100k"/>
 <part name="R7" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="200k"/>
@@ -36346,9 +36346,9 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="P+18" library="supply1" deviceset="+5V" device=""/>
-<part name="IC3" library="SparkFun" deviceset="LMV358" device=""/>
+<part name="IC3" library="SparkFun" deviceset="LMV358" device="" value="LM358"/>
 <part name="C14" library="SparkFun" deviceset="CAP_POL" device="1206" value="10uf"/>
-<part name="D1" library="diode" deviceset="BAS40-06" device=""/>
+<part name="D1" library="diode" deviceset="BAS40-06" device="" value="AZ23C5V6-7-F"/>
 <part name="C7" library="SparkFun" deviceset="CAP" device="0805" value=".1uf"/>
 <part name="R14" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="100k"/>
 <part name="R15" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="20k"/>
@@ -36358,11 +36358,11 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R19" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="R20" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="Q1" library="adafruit" deviceset="XTAL-4" device="-3225" value="16000"/>
-<part name="DCDC" library="Qxd" deviceset="DCDC_SIP" device="" value="D107E"/>
+<part name="DCDC" library="Qxd" deviceset="DCDC_SIP" device="" value="MD112D-12E"/>
 <part name="D2" library="diode" deviceset="DIODE-" device="SOD123" value="1N4148"/>
 <part name="D3" library="diode" deviceset="DIODE-" device="SOD123" value="1N4148"/>
 <part name="D4" library="diode" deviceset="DIODE-" device="SOD123" value="1N4148"/>
-<part name="TVS" library="diode" deviceset="DIODE-" device="SMB" value="P6SMB16A"/>
+<part name="TVS" library="diode" deviceset="DIODE-" device="SMB" value="P6SMB16CA"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="transistor-npn" deviceset="BCX70*" device="SMD" value="2222A"/>
 <part name="LOGO1" library="ohw-logo" deviceset="OSHW_LOGO_8MIL" device="X0150-NT"/>
@@ -36405,7 +36405,7 @@ Source: http://www.murata.com .. GRM43DR72E224KW01.pdf</description>
 <part name="R25" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="100k"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="R26" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="28"/>
+<part name="R26" library="SparkFun" deviceset="RESISTOR" device="0805-RES" value="22"/>
 <part name="A_CT" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun" deviceset="CAP" device="0805" value=".1uf"/>
