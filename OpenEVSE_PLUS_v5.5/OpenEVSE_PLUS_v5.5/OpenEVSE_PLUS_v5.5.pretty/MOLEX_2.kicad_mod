@@ -1,0 +1,218 @@
+(footprint "MOLEX_2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.8702 -3.0988 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "689cd533-acf5-43b7-9dc4-d69e1ff5ebbe")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.127)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MOLEX_2"
+		(at -3.048 4.445 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c03a9aa1-fb8c-4c18-8f82-2b990ee0a10a")
+		(effects
+			(font
+				(size 1.1684 1.1684)
+				(thickness 0.1016)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc1c7114-e616-47dc-b4bb-ec4182c5b561")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "035fdff9-2bb4-4d0b-837d-96471a7d9017")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d12d5e28-5e48-489a-83de-fbd892835d58")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -2.54 -2.54)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d466aebc-88b6-45e2-8e02-65f1c78d1b01")
+	)
+	(fp_line
+		(start -2.54 -2.413)
+		(end -2.54 2.667)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6bb59364-65c1-43ad-b731-39c746c000e5")
+	)
+	(fp_line
+		(start -0.635 1.905)
+		(end -0.635 2.032)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0970044c-5f55-46df-a96b-da8aa207cec9")
+	)
+	(fp_line
+		(start -0.635 1.905)
+		(end 0.762 1.905)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59f7170e-2d72-4485-bcca-6e6c75a945ef")
+	)
+	(fp_line
+		(start -0.635 2.032)
+		(end -0.635 2.794)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e3fd9efb-cec3-4ba2-bb04-74ca22c691fc")
+	)
+	(fp_line
+		(start -0.635 2.667)
+		(end -0.635 2.032)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5647252d-907b-42c7-a305-3d58658fc4d9")
+	)
+	(fp_line
+		(start -0.635 2.794)
+		(end -2.54 2.794)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "29d0a1dc-9422-4622-aad1-c6e214bd6728")
+	)
+	(fp_line
+		(start 0.762 1.905)
+		(end 0.762 2.667)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d85f1558-5094-46df-8ff8-e7450307fb01")
+	)
+	(fp_line
+		(start 0.762 2.032)
+		(end -0.508 2.032)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22672c1a-6a96-411f-b7b8-fa2867ee604d")
+	)
+	(fp_line
+		(start 0.762 2.032)
+		(end 0.762 2.667)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77f1d935-1260-4d1c-b407-e4740fdac281")
+	)
+	(fp_line
+		(start 0.762 2.667)
+		(end -0.635 2.667)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c3cac3cb-5c84-4f9e-8c0c-3d966f61f583")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 2.794)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "684ef72c-7494-4d55-8131-4fda35c0bfe8")
+	)
+	(fp_line
+		(start 2.54 2.794)
+		(end -0.635 2.794)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "22af6c20-8cb3-4979-b367-b3bb166e8879")
+	)
+	(pad "1" thru_hole circle
+		(at -1.27 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "9f0f7211-1b87-45f7-9cac-1b512ce5d023")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0 90)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "650bd653-752c-45c7-a4f1-1eaa02e78e3a")
+	)
+)

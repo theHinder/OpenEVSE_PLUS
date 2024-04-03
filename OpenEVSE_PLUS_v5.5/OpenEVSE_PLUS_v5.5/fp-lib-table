@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "OpenEVSE_PLUS_v5.5")(type "KiCad")(uri "$(KIPRJMOD)/OpenEVSE_PLUS_v5.5.pretty")(options "")(descr ""))
+)
