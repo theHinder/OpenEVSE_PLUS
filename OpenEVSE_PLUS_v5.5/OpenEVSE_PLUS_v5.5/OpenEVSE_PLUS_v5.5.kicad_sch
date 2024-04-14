@@ -5,6 +5,261 @@
 	(uuid "5e8073fc-0f90-4961-bec0-7e5c76cf3585")
 	(paper "User" 318.973 260.198)
 	(lib_symbols
+		(symbol "Converter_ACDC:TMLM04225"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TMLM04225"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tracopower.com/products/tmlm.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V 250mA / 5V 120mA AC/DC dual output, low noise power module"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Traco Power 4W AC-DC module power supply"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*ACDC*TRACO*TMLM*04*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TMLM04225_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -7.874 0.635)
+					(mid -7.239 0.2495)
+					(end -6.604 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -5.334 0.635)
+					(mid -5.969 1.0072)
+					(end -6.604 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.874 -0.635) (xy -5.334 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TMLM04225_1_1"
+				(pin power_out line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "Vout1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "Common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "Vout2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "AC(L)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "AC(N)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "OpenEVSE_PLUS_v5.5-eagle-import:+12V"
 			(power)
 			(exclude_from_sim no)
@@ -5519,240 +5774,6 @@
 				)
 			)
 		)
-		(symbol "OpenEVSE_PLUS_v5.5-eagle-import:MPM-04E-1205"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" "OpenEVSE_PLUS_v5.5:MPM-04E-1205"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MPM-04E-1205_1_0"
-				(polyline
-					(pts
-						(xy -12.7 -12.7) (xy -12.7 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -12.7 7.62) (xy 2.54 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -12.7) (xy -12.7 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 7.62) (xy 2.54 -12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -10.16 0)
-					(length 5.08)
-					(name "ACH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "ACL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 -5.08 0)
-					(length 5.08)
-					(name "ACN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "ACN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 -10.16 180)
-					(length 5.08)
-					(name "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 7.62 2.54 180)
-					(length 5.08)
-					(name "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "NC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "OpenEVSE_PLUS_v5.5-eagle-import:OSHW_LOGO_8MILX0150-NT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7416,16 +7437,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 160.02) (xy 228.6 160.02)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2e1923c1-d1f6-490b-a9b0-109b3cd71b9e")
-	)
-	(wire
-		(pts
 			(xy 195.58 78.74) (xy 187.96 78.74)
 		)
 		(stroke
@@ -7544,6 +7555,16 @@
 		)
 		(uuid "383b4496-6bf3-4d07-82d2-e80686c8516e")
 	)
+	(wire
+		(pts
+			(xy 254 170.18) (xy 260.35 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "389fea60-bc8f-4819-873d-d9b040faeb62")
+	)
 	(polyline
 		(pts
 			(xy 261.62 22.86) (xy 261.62 86.36)
@@ -7553,6 +7574,16 @@
 			(type solid)
 		)
 		(uuid "38c796a0-a8b0-489c-9cd6-8a817d0e9cf4")
+	)
+	(wire
+		(pts
+			(xy 254 165.1) (xy 260.35 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38ce33c6-4212-4579-86ab-3577e354d1a3")
 	)
 	(wire
 		(pts
@@ -8103,16 +8134,6 @@
 			(type solid)
 		)
 		(uuid "655814d8-729f-4179-b7a7-5d182575c3e8")
-	)
-	(wire
-		(pts
-			(xy 210.82 154.94) (xy 228.6 154.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "65631ca9-5b41-472d-a497-6b19a1be0cfe")
 	)
 	(wire
 		(pts
@@ -8966,6 +8987,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 167.64) (xy 255.27 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dddc53-0c18-431e-b951-02be07d42798")
+	)
+	(wire
+		(pts
 			(xy 99.06 68.58) (xy 99.06 71.12)
 		)
 		(stroke
@@ -9303,16 +9334,6 @@
 			(type solid)
 		)
 		(uuid "dd92a392-c51f-4d5a-83a5-400c38fd8c3c")
-	)
-	(wire
-		(pts
-			(xy 228.6 157.48) (xy 223.52 157.48)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "de921d91-dfea-48fa-9921-e4effadcecc7")
 	)
 	(wire
 		(pts
@@ -10282,7 +10303,8 @@
 	)
 	(symbol
 		(lib_id "OpenEVSE_PLUS_v5.5-eagle-import:+5V")
-		(at 215.9 160.02 90)
+		(at 262.89 170.18 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10290,7 +10312,7 @@
 		(dnp no)
 		(uuid "00ba0f55-1f79-45b7-8dcf-3f9d6e1784fd")
 		(property "Reference" "#P+1"
-			(at 215.9 160.02 0)
+			(at 262.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10321,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 220.98 162.56 90)
+			(at 254.508 170.688 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10308,7 +10330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 160.02 0)
+			(at 262.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10317,7 +10339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 160.02 0)
+			(at 262.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10326,7 +10348,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 160.02 0)
+			(at 262.89 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12727,8 +12749,8 @@
 		)
 	)
 	(symbol
-		(lib_id "OpenEVSE_PLUS_v5.5-eagle-import:MPM-04E-1205")
-		(at 246.38 160.02 0)
+		(lib_id "Converter_ACDC:TMLM04225")
+		(at 241.3 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12736,7 +12758,7 @@
 		(dnp no)
 		(uuid "479d6df5-0b48-4106-a3f6-727d6847b79f")
 		(property "Reference" "PS1"
-			(at 246.38 160.02 0)
+			(at 241.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12745,7 +12767,7 @@
 			)
 		)
 		(property "Value" "MPM-04E-1205"
-			(at 246.38 160.02 0)
+			(at 241.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12753,8 +12775,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "OpenEVSE_PLUS_v5.5:MPM-04E-1205"
-			(at 246.38 160.02 0)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_TRACO_TMLM-04_THT"
+			(at 241.3 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12762,8 +12784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 246.38 160.02 0)
+		(property "Datasheet" "https://www.tracopower.com/products/tmlm.pdf"
+			(at 241.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12771,8 +12793,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 246.38 160.02 0)
+		(property "Description" "12V 250mA / 5V 120mA AC/DC dual output, low noise power module"
+			(at 241.3 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12780,26 +12802,20 @@
 				(hide yes)
 			)
 		)
-		(pin "12V"
+		(pin "6"
 			(uuid "031ef352-d4a5-407e-92bc-532c599f6b2e")
 		)
-		(pin "5V"
+		(pin "5"
 			(uuid "8202f26d-648f-4c95-bce7-c3da30d9b2e1")
 		)
-		(pin "ACL"
+		(pin "2"
 			(uuid "8f76a1a5-1cb7-45a4-8d3a-5855ff662e34")
 		)
-		(pin "ACN"
+		(pin "3"
 			(uuid "27551952-1ab1-450e-90ed-58d12724799b")
 		)
-		(pin "GND"
+		(pin "4"
 			(uuid "267b1ef5-90de-46ee-a1e3-d4b58d72b23c")
-		)
-		(pin "NC1"
-			(uuid "d5e4914c-7d48-4653-b305-d416068b2b37")
-		)
-		(pin "NC2"
-			(uuid "10b08b2a-e5a3-4904-b5b7-cc9bb8bd9a2b")
 		)
 		(instances
 			(project "OpenEVSE_PLUS_v5.5"
@@ -15067,7 +15083,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 261.62 175.26 90)
+			(at 267.716 177.292 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17480,7 +17496,8 @@
 	)
 	(symbol
 		(lib_id "OpenEVSE_PLUS_v5.5-eagle-import:+12V")
-		(at 208.28 154.94 90)
+		(at 262.89 165.1 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17488,7 +17505,7 @@
 		(dnp no)
 		(uuid "c5a893e7-b578-415b-930a-7b1bdd00a0e1")
 		(property "Reference" "#P+9"
-			(at 208.28 154.94 0)
+			(at 262.89 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17497,7 +17514,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 213.36 157.48 90)
+			(at 254.254 162.56 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17506,7 +17523,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 154.94 0)
+			(at 262.89 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17515,7 +17532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 154.94 0)
+			(at 262.89 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17524,7 +17541,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 208.28 154.94 0)
+			(at 262.89 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18572,7 +18589,8 @@
 	)
 	(symbol
 		(lib_id "OpenEVSE_PLUS_v5.5-eagle-import:GND")
-		(at 220.98 157.48 270)
+		(at 257.81 167.64 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18580,7 +18598,7 @@
 		(dnp no)
 		(uuid "f589755c-8c54-43d3-a372-04b0ad8ee15f")
 		(property "Reference" "#GND2"
-			(at 220.98 157.48 0)
+			(at 257.81 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18589,7 +18607,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 218.44 154.94 0)
+			(at 260.35 165.1 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18598,7 +18616,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 157.48 0)
+			(at 257.81 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18607,7 +18625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 157.48 0)
+			(at 257.81 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18616,7 +18634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 157.48 0)
+			(at 257.81 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
